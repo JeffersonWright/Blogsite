@@ -1,0 +1,18 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="{% static 'blog.css' %}" type="text/css" media="all">
+    <title>{% block title %}{% endblock %}</title>
+  </head>
+  <body id="bg" style="background-image: url('{% static "sgt.jpg"%}')";>
+    <div id="content">
+      {% block content %}
+      {% endblock %}
+    </div>
+    <div id="sidebar">
+      <h2>Zen Habits</h2>
+      <a href="https://zenhabits.net/open-source-blogging-feel-free-to-steal-my-content/">This blog is from Zen Habits, stated as open source.</a>
+    </div>
+  </body>
+  </html>
