@@ -1,2 +1,2 @@
 # Blogsite
-Practice creating a website for a blog.
+This is a website created using Django as practice.
